@@ -6,12 +6,12 @@
 /*   By: sfelici <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/04 18:29:48 by sfelici           #+#    #+#             */
-/*   Updated: 2024/10/04 18:29:49 by sfelici          ###   ########.fr       */
+/*   Updated: 2024/10/09 18:29:39 by sfelici          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
-//#include <stdio.h>
+#include <stdio.h>
 
 int	*ft_range(int min, int max)
 {
@@ -38,7 +38,6 @@ int	main()
 
 	while(*range)
 	{
-		printf("%d ", *range++);
+		printf("%d", *range++);
 	}
-}
-*/
+}*/
